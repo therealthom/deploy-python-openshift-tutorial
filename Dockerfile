@@ -1,4 +1,4 @@
-FROM ubi7/ubi:latest
+FROM registry.access.redhat.com/ubi7/ubi:latest
 RUN apk add --no-cache python3-dev \
     && pip3 install --upgrade pip
 
