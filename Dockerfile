@@ -1,4 +1,4 @@
-from alpine:latest
+FROM ubi7/ubi:latest
 RUN apk add --no-cache python3-dev \
     && pip3 install --upgrade pip
 
